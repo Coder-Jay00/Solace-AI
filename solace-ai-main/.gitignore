@@ -1,0 +1,71 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# Dependencies
+node_modules/
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# Expo & Build Artifacts
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native & Keystores
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.pem
+*.mobileprovision
+
+# Metro & Caches
+.metro-health-check*
+*.tsbuildinfo
+
+# OS Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE & Editor configs
+.vscode/
+.claude/
+.idea/
+*.swp
+*.swo
+
+# Environment & Secrets (Every single env variant strictly ignored)
+.env
+.env.*
+.env*.local
+*.env
+*.env.*
+*.env.local
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+.env.staging
+.env.staging.local
+
+# Preserve only the clean example template
+!.env.example
+
+# Generated native folders
+/ios
+/android
+
+# Stitch design export
+stitch_solace_ai_wellness_dashboard/
+
+# Supabase CLI temporary files
+supabase/.temp/
+.temp/
+
